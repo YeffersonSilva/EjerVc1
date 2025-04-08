@@ -24,8 +24,9 @@ public class TiposPrimitivosJava {
         // Tipo boolean: solo puede ser true o false
         boolean esEstudiante = true;
 
-        // Tipo String: secuencia de caracteres (no es primitivo, pero muy usado)
+        // Tipo Referencia ----  String: secuencia de caracteres -- Metodos disponibles ejemplo: .length()
         String nombre = "Carlos Gómez";
+        
 
         // Mostrar la información
         System.out.println("Información Personal:");
