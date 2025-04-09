@@ -38,10 +38,12 @@ public class EstructurasControl {
         }
 
         // WHILE: contar del 1 al 5
-        int contador = 1;
-        while (contador <= 5) {
-            System.out.println("Contador vale: " + contador);
-            contador++;
+
+     precioAuto = 105000;
+
+     while (precioAuto < 90000 || precioAuto > 100000) {
+            System.out.println("Buscando otro auto... Precio actual: " + precioAuto);
+            precioAuto -= 5000; // Simulamos que baja el precio
         }
 
         // FOR: revisar 3 autos
